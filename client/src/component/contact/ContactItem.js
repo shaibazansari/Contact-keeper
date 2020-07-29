@@ -20,10 +20,10 @@ const ContactItem = ({ contact , deleteContact, setCurrent, clearCurrent}) => {
             </h3>
             <ul className='list'>
                 { email && (<li>
-                    {email}
+                    <i className='fas fa-envelope-open' /> {' ',email}
                 </li>)}
                 { phone && (<li>
-                    {phone}
+                    <i className='fas fa-phone' /> {' ',phone}
                 </li>)}
             </ul>
             <p>
